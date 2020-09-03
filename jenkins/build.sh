@@ -1,4 +1,5 @@
 echo 'build'
-echo '$BRANCH_NAME'
-echo '${BRANCH_NAME}'
-echo ${BRANCH_NAME}
+echo '$JOB_NAME'
+echo '${JOB_NAME}'
+echo {JOB_NAME}
+echo ${JOB_NAME}
